@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        form{
+            border: solid 1px black;
+        }
+    </style>
+</head>
+<body>
+    <h1>INDUSTRIAS STARFUERTE</h1>
+
+    <form action="#" name="form">
+        <legend>FORMULARIO DE PEDIDO</legend>
+        
+        <h4>>Paso 1. Identificación</h4>
+
+        <label for="producto">Producto</label>
+        <br>
+        <select name="producto[]" size="8" multiple>
+            <optgroup label="Armaduras">
+                <option value="a1" selected>oro</option>
+                <option value="a2">plata</option>
+                <option value="a3">bronce</option>
+            </optgroup>
+            <optgroup label="Extras">
+                <option value="e1" selected>escudo</option>
+                <option value="e2">invisibilidad</option>
+            </optgroup>
+        </select>
+
+        <fieldset>
+            <legend>DataList</legend>
+            <label for="pro">Producto:</label>
+            <input type="text" list="prods" name="pro" placeholder="selecciona un producto">
+            <datalist id="prods">
+                <optgroup label="Armaduras">
+                    <option value="a1" selected>oro</option>
+                    <option value="a2">plata</option>
+                    <option value="a3">bronce</option>
+                </optgroup>
+                <optgroup label="Extras">
+                    <option value="e1" selected>escudo</option>
+                    <option value="e2">invisibilidad</option>
+                </optgroup>
+            </datalist>
+        </fieldset>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,85 @@
+.principal{
+    display: flex;
+    padding: 30px 150px;
+    justify-content: space-between;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.principal h3{
+    margin: 30px 0px;
+    font-size: 30px;
+}
+
+.principal img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.principal main{
+    width: 70%;
+    padding: 20px;
+}
+
+.principal aside{
+    width: 30%;
+    padding: 20px;
+}
+
+.principal article{
+    margin: 80px 0px;
+}
+
+.principal article h4{
+    margin: 15px 0px;
+}
+
+.principal figcaption{
+    margin: 5px 15px;
+    font-size: 15px;
+}
+
+.principal article p{
+    margin: 20px 0px;
+}
+
+.principal article a{
+    color:white;
+    background-color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+}
+
+.principal ul{
+    list-style: none;
+}
+
+.principal ul h4{
+    margin: 20px 0px;
+}
+
+.principal ul p{
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.principal ul p span{
+    font-weight:normal;
+}
+
+.principal ul a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(118, 96, 69);
+    padding: 15px;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.principal ul li{
+    border-bottom: 2px rgb(189, 189, 189) solid;
+    margin: 50px;
+    padding-bottom: 10px;
+}

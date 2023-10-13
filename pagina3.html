@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Atributos globales</title>
+    </head>
+    
+    <body>
+        <p> Este es un párrafo en el que insertaremos un elemento span a continuación para diferenciarlo
+    
+            <span style=" background: yellow; color: red;">Texto especial dentro de etiqueta span con fondo amarillo y
+            color rojo</span> ese texto especial sigue dentro del párrafo y en linea, forma parte del párrafo, pero
+            podemos especificar alguna característica </p>
+
+        <figure>
+            <img src="tortilla.webp" alt="foto de la tortilla">
+            <figcaption>La foto de mi tortilla de patatas</figcaption>
+        </figure>
+
+        <code>
+            public class Animal {
+                private String nombre; //Nombre del animal
+                private String nombreCientifico; //Nombre cientifico del animal
+                private String descripcion; //Descripcion del animal
+                private int protegido; //Si el animal esta protegido o no
+                private String habitat; //Nombre del habitat
+                        
+                //Constructor
+            
+                public Animal(String nombre, String nombreCientifico, String descripcion, int protegido, String habitat) {
+                    this.nombre = nombre;
+                    this.nombreCientifico = nombreCientifico;
+                    this.descripcion = descripcion;
+                    this.protegido = protegido;
+                    this.habitat = habitat;
+                }
+            
+                //Metodos getter and setter
+            
+                public String getNombre() {
+                    return nombre;
+                }
+            
+                public void setNombre(String nombre) {
+                    this.nombre = nombre;
+                }
+            
+                public String getNombreCientifico() {
+                    return nombreCientifico;
+                }
+            
+                public void setNombreCientifico(String nombreCientifico) {
+                    this.nombreCientifico = nombreCientifico;
+                }
+            
+                public String getDescripcion() {
+                    return descripcion;
+                }
+            
+                public void setDescripcion(String descripcion) {
+                    this.descripcion = descripcion;
+                }
+            
+                public int getProtegido() {
+                    return protegido;
+                }
+            
+                public void setProtegido(int protegido) {
+                    this.protegido = protegido;
+                }
+            
+                public String getHabitat() {
+                    return habitat;
+                }
+            
+                public void setHabitat(String habitat) {
+                    this.habitat = habitat;
+                }
+               
+            }
+            
+        </code>
+    </body>
+</html>
+
+

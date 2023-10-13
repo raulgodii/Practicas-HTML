@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <h2>Insertamos un documento HTML dentro de otro</h2>
+    <iframe src="insertado.html"></iframe>
+    <iframe width=100% height="315" src="https://www.youtube.com/embed/WNWVzg8ZfHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <embed type="video/webm" src="videos/movie.mp4" width="400" height="200">
+    
+        <object data="descarga.jpg" type="image/jpg">
+        <param name="image" value="descarga.jpg">
+    </object>
+    <object data="insertado.html" type="text/html">
+        <param name="insertado" value="insertado.html">
+    </object>
+    <object data="fol.pdf" type="application/pdf">
+        <param name="pdf" value="fol">
+    </object>
+
+    <picture>
+        <source srcset="descarga.jpg" media="(max-width: 600px)">
+        <source srcset="a.jpg" media="(max-width: 1000px)">
+        <img src="pu.png" alt="holahoalahoalaanvaonao">
+    </picture>
+</body>
+</html>

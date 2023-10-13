@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Formulario de inscripción</h2>
+    <hr> <br>
+
+    <form action="eje14.3.html">
+        <h3>Datos personales</h3>
+        <label for="nombre">Nombre*</label>
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <br><br>
+
+        <label for="apellidos">Apellidos*</label>
+        <input type="text" name="apellidos" placeholder="Apellidos" required>
+        <br><br>
+
+        <label for="sexo">Sexo*</label>
+        <select name="sexo" id="sexo">
+            <option value="m">Masculino</option>
+            <option value="f">Femenino</option>
+            <option value="i">Indeterminado</option>
+        </select>
+        <br><br>
+
+        <label for="dni">NIF/Pasaporte*</label>
+        <input type="text" name="dni" placeholder="DNI o pasaporte" required>
+        <br><br>
+
+        <label for="fecha">Fecha de Nacimiento*</label>
+        <input type="date" name="fecha" placeholder="Fecha" required>
+        <br><br>
+
+        <label for="talla">Talla camiseta*</label>
+        <input type="text" name="talla" placeholder="Talla" required>
+        <br><br>
+
+        <label for="localidad">Localidad*</label>
+        <input type="text" name="localidad" placeholder="Localidad" required>
+        <br><br>
+
+        <label for="provincia">Provincia*</label>
+        <input type="text" name="provincia" placeholder="Provincia" required>
+        <br><br>
+
+        <label for="cp">Codigo Postal*</label>
+        <input type="text" name="cp" placeholder="Codigo Postal" maxlength="5" pattern="/d{5,5}" title="Introduce un código postal válido" required>
+        <br><br><br>
+
+        <h3>Datos de contacto</h3>
+        <label for="correo">Correo Electronico*</label>
+        <input type="email" name="correo" placeholder="Correo Electronico" required>
+        <br><br>
+    
+        <label for="tel">Telefono Movil*</label>
+        <input type="text" name="tel" placeholder="Telefono Movil" maxlength="9" pattern="/d{9,9}" title="Introduce un numero válido" required>
+        <br><br><br>
+
+        <h3>Datos deportivos</h3>
+        <label for="club">Club</label>
+        <input type="text" name="club" placeholder="Cub">
+        <br><br>
+
+        <label for="ndorsal">Nombre Dorsal</label>
+        <input type="text" name="ndorsal" placeholder="Nombre Dorsal">
+        <br><br>
+
+        <progress value="32" max="100">32%</progress>
+
+        <input type="submit">
+    </form>
+</body>
+</html>
